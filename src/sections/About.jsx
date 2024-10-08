@@ -16,7 +16,7 @@ export const About = () => {
           {/* About Content (Profile Image) */}
           <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
             <img
-              src="/public/images/amogh.png"
+              src="/images/amogh.png"
               alt="Profile"
               className="rounded-full shadow-lg mx-auto lg:mx-0 w-72 h-72 object-cover border-4 border-gray-300"
             />

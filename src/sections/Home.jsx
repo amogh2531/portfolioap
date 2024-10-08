@@ -54,7 +54,7 @@ export const Home = () => {
         <div className="flex justify-center items-center lg:mr-20 mt-8 lg:mt-0">
           <div className="p-10 m-5 flex justify-center items-center">
             <img
-              src="/public/images/amogh.png"
+              src="/images/amogh.png"
               alt="Amogh"
               className="rounded-full w-48 h-48 lg:w-64 lg:h-64 object-cover"
             />
