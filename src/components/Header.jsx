@@ -1,30 +1,63 @@
-import { Link } from "react-router-dom"
-
+import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export const Header = () => {
-  const links = ["home", "about", "projects","skills", "contacts"]
-  return ( 
-    <div className=" flex justify-between items-center w-[100vw] fixed h-20 bg-black text-white mb-4 z-20 ">
+  const links = ["home", "about", "projects", "skills", "contacts"];
+  
+  
+  const [menuOpen, setMenuOpen] = useState(false);
 
-       <div className="flex justify-self-start  ml-5 text-2xl font-bold ">
-        <Link to='/'>Amogh Phadke</Link>
-       </div>
-
-
-      <div className=" flex justify-between items-center">
-        <ul className="flex justify-center mr-2">
-           { links.map((link, index) => (
-              <li className="mr-3 p-3 capitalize font-bold font-xl" key={index}>
-                <a
-               href={ "#" + link}
-               className="flex items-center h-full scroll-smooth"
-            > {link}
-            </a>
-              </li>
-              ))}
-              </ul>
+  return (
+    <div className="flex justify-between items-center w-full fixed h-20 shadow-md bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white mb-4 z-20 px-6 lg:px-12">
+      
+      
+      <div className="flex justify-start items-center text-2xl sm:text-lg font-bold italic">
+        <a href="#home">Amogh Phadke</a>
       </div>
+
+      
+      <div className="lg:hidden">
+        <button 
+          onClick={() => setMenuOpen(!menuOpen)} 
+          className="text-white focus:outline-none"
+        >
+          &#9776; 
+        </button>
+      </div>
+
+   
+      <div className="hidden lg:flex justify-center items-center">
+        <ul className="flex space-x-4">
+          {links.map((link, index) => (
+            <li className="p-3 capitalize font-bold text-lg" key={index}>
+              <a
+                href={"#" + link}
+                className="flex items-center h-full hover:text-gray-300   transition duration-300"
+              >
+                {link}
+              </a> 
+            </li>
+          ))}
+        </ul>
+      </div>
+
+     
+      {menuOpen && (
+        <div className="lg:hidden absolute top-20 left-0 w-full bg-black text-white">
+          <ul className="flex flex-col items-center space-y-4 p-4">
+            {links.map((link, index) => (
+              <li key={index}>
+                <a
+                  href={"#" + link}
+                  className="capitalize font-bold hover:text-gray-300 transition duration-300"
+                >
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
-    
-  )
-}
+  );
+};

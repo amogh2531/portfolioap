@@ -6,7 +6,7 @@ import { Contact } from "../sections/Contact"
 
 export const Homescreen = () => {
   return (
-    <div className="bg-black flex flex-col text-white overflow-y-hidden " >
+    <div className="bg-gradient-to-r from-purple-500 to-pink-500 flex flex-col text-white overflow-y-hidden " >
 
       {/* home section */}
       <Home/>
