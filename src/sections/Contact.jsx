@@ -137,7 +137,7 @@ export const Contact = () => {
 
               <div className="mt-4 flex items-center justify-center">
                 <a
-                  href="https://linkedin.com/in/yourprofile"
+                  href="www.linkedin.com/in/amogh-phadke-51b611184"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-blue-400 hover:underline mb-2 mr-2 text-2xl"
