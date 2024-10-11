@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section id="about" className="py-16 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
       <div className="container mx-auto px-6 mt-3">
-        {/* Section Title */}
+  
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold mb-2">About Me</h2>
           <p className="text-lg mt-4">
@@ -13,7 +13,7 @@ export const About = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center gap-12">
-          {/* About Content (Profile Image) */}
+          
           <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
             <img
               src="/images/amogh.png"
@@ -22,7 +22,7 @@ export const About = () => {
             />
           </div>
 
-          {/* Bio Section */}
+    
           <div className="w-full lg:w-2/3">
             <p className="text-lg leading-relaxed mb-6">
               Hello! I’m a passionate web developer with a love for creating intuitive and engaging user experiences. 

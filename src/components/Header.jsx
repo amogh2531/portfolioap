@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export const Header = () => {
@@ -19,7 +18,7 @@ export const Header = () => {
       <div className="lg:hidden">
         <button 
           onClick={() => setMenuOpen(!menuOpen)} 
-          className="text-white focus:outline-none"
+          className="text-white focus:outline-none text-xl"
         >
           &#9776; 
         </button>
@@ -43,7 +42,7 @@ export const Header = () => {
 
      
       {menuOpen && (
-        <div className="lg:hidden absolute top-20 left-0 w-full bg-black text-white">
+        <div className="lg:hidden absolute top-20 left-0 w-full bg-gradient-to-r from-violet-500 text-white">
           <ul className="flex flex-col items-center space-y-4 p-4">
             {links.map((link, index) => (
               <li key={index}>
