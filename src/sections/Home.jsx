@@ -40,7 +40,7 @@ export const Home = () => {
       <div className="flex flex-col lg:flex-row justify-center lg:justify-around items-center h-[90vh]">
       
         <div className="font-bold flex flex-col mt-20 lg:mt-0 text-center lg:text-left text-3xl p-3 lg:ml-10">
-          <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl m-2">
+          <h1 className="text-4xl sm:text-3xl md:text-4xl lg:text-5xl m-2 mt-2">
             Hello, <br />I'm Amogh Phadke <br />
             <span className="text-gray-600">{text}</span>
           </h1>

@@ -137,10 +137,10 @@ export const Contact = () => {
 
               <div className="mt-4 flex items-center justify-center">
                 <a
-                  href="www.linkedin.com/in/amogh-phadke-51b611184"
+                  href="https://www.linkedin.com/in/amogh-phadke-51b611184"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-blue-400 hover:underline mb-2 mr-2 text-2xl"
+                  className="inline-block text-blue-700 hover:underline mb-2 mr-2 text-2xl"
                 >
                    {<FaLinkedin/>}
                 </a>
@@ -149,7 +149,7 @@ export const Contact = () => {
                   href="https://github.com/amogh2531"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block text-blue-400 hover:underline mb-2 text-2xl"
+                  className="inline-block text-blue-700 hover:underline mb-2 text-2xl"
                 >
                    {<FaGithub/>}
                 </a>

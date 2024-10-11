@@ -16,7 +16,7 @@ export const About = () => {
           
           <div className="w-full lg:w-1/3 mb-8 lg:mb-0">
             <img
-              src="/images/amogh.png"
+              src="/images/am.png"
               alt="Profile"
               className="rounded-full shadow-lg mx-auto lg:mx-0 w-72 h-72 object-cover border-4 border-gray-300"
             />
@@ -31,8 +31,10 @@ export const About = () => {
               My goal is to build websites and applications that are not only functional but also delightful to use.
             </p>
             <p className="text-lg leading-relaxed mb-6">
-              In my spare time, I enjoy exploring new web development trends, contributing to open-source projects, and learning new
-              technologies that help me grow as a developer.
+              In my spare time, I enjoy exploring new web development trends, and learning new
+              technologies that help me grow as a developer. When I'm not coding, you can usually find me hiking, capturing moments through
+              photography, or listening to music. These hobbies keep me grounded and
+              fuel my creativity.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export const Header = () => {
-  const links = ["home", "about", "projects", "skills", "contacts"];
+  const links = ["home", "about", "projects", "skills", "experience", "contacts"];
   
   
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,7 +42,7 @@ export const Header = () => {
 
      
       {menuOpen && (
-        <div className="lg:hidden absolute top-20 left-0 w-full bg-gradient-to-r from-violet-500 text-white">
+        <div className="lg:hidden absolute top-20 left-0 w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white z-30">
           <ul className="flex flex-col items-center space-y-4 p-4">
             {links.map((link, index) => (
               <li key={index}>

@@ -2,7 +2,7 @@ import { skills } from "../data/data";
 
 export const Skills = () => {
   return (
-    <div id="skills" className="bg-gradient-to-r from-purple-500 to-pink-500">
+    <div id="skills" className="bg-gradient-to-r from-purple-500 to-pink-500 font-jost">
       <h2 className="text-center text-3xl font-bold mb-8 mt-4 pb-8 py-16 text-white " >
         Skills
       </h2>
@@ -16,7 +16,7 @@ export const Skills = () => {
               <img
                 src={skill.img}
                 alt={skill.name}
-                className="object-contain h-32 w-32 rounded-full border-4 border-white shadow-md transition-transform transform hover:scale-110"
+                className="object-contain h-32 w-32 rounded-2xl border-4 border-white shadow-md transition-transform transform hover:scale-110"
               />
             </div>
             <div className="font-bold text-lg mb-2">{skill.name}</div>

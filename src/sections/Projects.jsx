@@ -58,7 +58,7 @@ export const Projects = () => {
        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {projects.map((project) => (
-            <div key={project.id} className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out">
+            <div key={project.id} className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 transition-transform transform hover:scale-110 ease-in-out">
               <img
                 src={project.imageUrl}
                 alt={project.title}
