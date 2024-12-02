@@ -27,21 +27,21 @@ const projects = [
     title: "Spotify Clone",
     description: "A copy of Spotify music website.",
     imageUrl: "/projectImages/spotify.png",
-    projectUrl: "https://github.com/amogh2531/simon-says-",
+    projectUrl: "https://github.com/amogh2531/spotifyclone",
   },
   {
     id: 5,
     title: "E-commerce Store",
     description: "E-commerce store for electronics shopping.",
     imageUrl: "/projectImages/ecomm.png",
-    projectUrl: "https://example.com/project-four",
+    projectUrl: "https://github.com/amogh2531/react-ecart",
   },
   {
     id: 6,
     title: "Simon Says",
     description: "A small Js based game.",
     imageUrl: "/projectImages/simon.png",
-    projectUrl: "https://example.com/project-four",
+    projectUrl: "https://github.com/amogh2531/simon-says-",
   },
 ];
 
